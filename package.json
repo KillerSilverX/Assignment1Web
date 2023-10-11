@@ -20,6 +20,7 @@
     "jquery": "^3.7.1",
     "morgan": "~1.10.0",
     "node": "^20.7.0",
+    "npm": "^10.2.0",
     "popper.js": "^1.16.1"
   },
   "main": "server.js",
