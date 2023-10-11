@@ -1,0 +1,51 @@
+<!-- Main Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Personal Portfolio</a> <img src="https://sat02pap005files.storage.live.com/y4mGTrT5C25WRtIc5qaaCw0JeYlpY9nfuJTVEq7eeoHWrU7k4OjslOQa40DMhrtWXfsEdtjzUtli3Z3Wrst45YjtJei2DjV2WrrtWjR2atCbiuTm9Ver_V4kE44l1zEz4BMutkY0Oo2zpXnjnTLd-vxj121j8fH2JU-gAPXVgbBn8yDQYVakld_IcS6JHW48OBN?width=500&height=500&cropmode=none" width="60" height="60" />
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+        <% if (title == "Home"){ %>
+        <li class="nav-item active">
+        <% } else  { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/home"><i class="fas fa-lg fa-laptop-house"></i> Home </a>
+        </li>
+
+        <% if (title == "About") { %>
+        <li class="nav-item active">
+        <% } else  { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About Me </a>
+        </li>
+
+        <% if (title == "Products") { %>
+        <li class="nav-item active">
+        <% } else  { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/projects"><i class="fab fa-elementor"></i> Projects </a>
+        </li>
+
+        <% if (title == "Services") { %>
+        <li class="nav-item active">
+        <% } else  { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/services"><i class="fas fa-cogs"></i> Services </a>
+        </li>
+
+        <% if (title == "Contact") { %>
+        <li class="nav-item active">
+        <% } else  { %>
+        <li class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact </a>
+        </li>
+    </div>
+  </nav>

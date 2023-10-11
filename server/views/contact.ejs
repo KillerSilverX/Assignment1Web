@@ -1,0 +1,47 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+
+      <div class="container">
+        <h1>Contact Info</h1>
+        <p style="font-size: 25px;"><strong>Name:</strong> Ale Pintado</p>
+        <p style="font-size: 25px;"><strong>Email:</strong> apintado@my.centennialcollege.ca</p>
+        <p style="font-size: 25px;"><strong>Phone:</strong> (647)773-8569</p>
+      </div>
+
+      <div class="container">
+        <h1>Contact Me</h1>
+        <form>
+          <div>
+            <label for="name" style="font-size: 25px;">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email"style="font-size: 25px;">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message"style="font-size: 25px;">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit"style="font-size: 20px;">Submit</button>
+        </form>
+      </div>
+      
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
+
+
+
+
